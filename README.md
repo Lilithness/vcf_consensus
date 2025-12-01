@@ -1,13 +1,14 @@
 # vcf_consensus
-Test task
+*Test task* 
 
-consensus_builder.py
+## consensus_builder.py
 Pure-Python consensus sequence generator from multi-sample VCF + reference FASTA.
 
-Input test vcf: https://drive.google.com/file/d/1p0PLCRzhxGRlZ3fwh9KZVMKFABirDPsQ/view?usp=sharing
-##Note: This vcf has 10 samples from 1kg dataset in hg19 build, and only a subset of positions of 6 chromosomes. VCF was manipulated to add consequent variats to test consensus.
+## Input test vcf: 
+https://drive.google.com/file/d/1p0PLCRzhxGRlZ3fwh9KZVMKFABirDPsQ/view?usp=sharing
+### Note: This vcf has 10 samples from 1kg dataset in hg19 build, and only a subset of positions of 6 chromosomes. VCF was manipulated to add consequent variats to test consensus.
 
-Conditions:
+## Conditions:
 - No external libraries (only Python standard library).
 - VCF is read and sorted by chromosome and position.
 - Fragments are chosen based on VCF positions:
